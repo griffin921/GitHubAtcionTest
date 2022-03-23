@@ -1,6 +1,2 @@
-function clean_up_project()
+clear all;
 
-    clear all;
-    
-
-end
