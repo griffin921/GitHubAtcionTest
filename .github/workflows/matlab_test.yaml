@@ -7,13 +7,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v3.0.0
+              uses: actions/checkout@v2
               
             - name: Set up MATLAB
-              uses: matlab-actions/setup-matlab@v1.0.1
+              uses: matlab-actions/setup-matlab@v1
               
             - name: exec MATLAB 'ver' command
-              uses: matlab-actions/run-command@v1.0.1
+              uses: matlab-actions/run-command@v1
               with:
                   command: ver
             
