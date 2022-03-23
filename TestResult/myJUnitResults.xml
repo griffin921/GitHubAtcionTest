@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" name="TestFile > ControllerVerify" skipped="0" tests="1" time="7.3218">
+    <testcase classname="TestFile > ControllerVerify" name="StepResponceTest" time="7.3218"/>
+  </testsuite>
+</testsuites>
