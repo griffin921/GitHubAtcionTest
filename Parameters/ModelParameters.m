@@ -7,7 +7,7 @@ wr_current_plant = RL / L_typ;
 Gain_current_plant = (1 / RL);
 
 %Controller Parameters
-Target_fc_current = 500;
+Target_fc_current = 1000;
 Target_wc_current = 2 * pi * Target_fc_current;
 
 Ti = 1 / Target_wc_current * Gain_current_plant;
