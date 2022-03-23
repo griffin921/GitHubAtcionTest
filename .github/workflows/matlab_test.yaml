@@ -10,6 +10,4 @@ jobs:
       - name: Set up MATLAB
         uses: matlab-actions/setup-matlab@v1
       - name: Run tests and generate artifacts
-        uses: matlab-actions/run-tests@v1
-        with:
-          test-results-pdf: results.pdf
+        uses: matlab-actions/run-tests@v1.0.1
