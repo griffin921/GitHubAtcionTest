@@ -12,3 +12,6 @@ Target_wc_current = 2 * pi * Target_fc_current;
 Ti = 1 / Target_wc_current * Gain_current_plant;
 Kp = 1 / (wr_current_plant * Ti) ;
 
+%Discreate parameters
+Tc = 1/10000;
+
