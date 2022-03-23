@@ -12,5 +12,4 @@ jobs:
       - name: Run tests and generate artifacts
         uses: matlab-actions/run-tests@v1
         with:
-          select-by-folder: Test
           test-results-junit: test-results/results.xml
