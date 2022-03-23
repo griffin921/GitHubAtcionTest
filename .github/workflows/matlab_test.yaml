@@ -12,5 +12,5 @@ jobs:
       - name: Run MATLAB Test Script
         uses: matlab-actions/run-command@v1.0.1
         with:
-         command: TestScript
+         command: run('TestScript')
 
