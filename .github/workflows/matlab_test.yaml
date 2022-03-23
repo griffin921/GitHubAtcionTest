@@ -1,0 +1,10 @@
+name: Run MATLAB command
+on:
+   push:
+jobs:
+    job1:
+        name: Run MATLAB Test
+        runs-on: ubuntu-latest
+        steps:
+            -name: Check out repository
+             uses: actions/checkout@v2
